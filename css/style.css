@@ -1,0 +1,60 @@
+/* Background-image */
+.bg-image {
+    background-image: url("../img/image.jpg");
+    height: 500px;
+    /* width: 100%; */
+    width: 900px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top left;
+    position: relative;
+}
+.bg-image p {
+    position: absolute;
+    top: 100px;
+    left:150px;
+    color: #fff;
+}
+/* Pseudo elements */
+.test::after {
+    content: "";
+    width: 80px;
+    height: 40px;
+    background: url("http://i.imgur.com/nceI30v.png");
+    background-repeat: no-repeat;
+    display: inline-block;
+    vertical-align: top;
+}
+
+/* Display flex */
+.grey-bg {
+    background-color: #E6E6E6;
+}
+.wraper {
+    display: flex;
+    justify-content: space-between;
+}
+.container {
+    width: 1170px;
+    margin:0 auto;
+}
+.box1 {
+    background-color:aqua;
+    width: 570px;
+    padding: 15px;
+
+}
+.image-wraper {
+    display: flex;
+}
+.image-wraper img {
+    margin-right: 30px;
+}
+.image-wraper p {
+    width: 355px;
+}
+.read {
+    display: flex;
+    justify-content: flex-end;
+    margin-right:30px;
+}
