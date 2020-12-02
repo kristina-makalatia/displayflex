@@ -50,6 +50,15 @@
     .block2 {
         display: none;
     }
+    /* .navigation {
+        display: none;
+    } */
+    .nav-li:not(.active) {
+        display: none;
+    }
+    .burger-icon {
+        display: block;
+    }
 }
 
 @media (max-width:555px) {
